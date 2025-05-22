@@ -5,55 +5,73 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>GREENSHOP</title>
+    <title>Document</title>
 </head>
-<body style="text-align: center; margin-top: 100px;">
-     <form name="register" action="http://127.0.0.1:5500/cgi-bin/php/login.php" method="post">
-         <div style="text-align: center;">
-             <h3 style="display: inline-block; margin-right: 20px; font-size: 24px;">Login | </h3>
-             <h3 style="display: inline-block; color: green; font-size: 24px;">Register</h3>
-         </div>
-         <div>
-            <label>
-                <p style="text-align: center;">Enter your email and password to register.</p>
-            </label>
-         </div>
-         <div>
-             <input style="text-align: center" ; type="text"  name="username" placeholder="username" id="username">
-         </div>
+<body>
+<div style="max-width: 500px; border: solid 1px silver; margin: auto; padding: 52px 100px 50px; box-sizing: border-box; border-bottom: solid 10px #46a358;">
+    <h1 style="text-align: center; font-weight: 500;
+font-size: 20px;
+line-height: 80%;
+color: #3d3d3d; margin-bottom: 40px;">Login I <span style="color: #46a358;">Register</span></h1>
+    <p style="font-weight: 400;
+font-size: 13px;
+line-height: 123%;
+color: #3d3d3d; margin-bottom: 14px;">Enter your email and password to register.</p>
+    <form action="" method="post" name="login">
+        <input type="text" name="username" placeholder="Username" style="width: 100%; border: 1px solid #eaeaea;
+border-radius: 5px; padding: 12px 14px; margin: 16px;">
+    </form>
+    <form action="" method="post" name="login">
+        <input type="text" name="username" placeholder="Username" style="width: 100%; border: 1px solid #eaeaea;
+border-radius: 5px; padding: 12px 14px; margin: 16px;">
+    </form>
+    <form action="" method="post" name="login">
+        <input type="text" name="email" placeholder="email" style="width: 100%; border: 1px solid #eaeaea;
+border-radius: 5px; padding: 12px 14px; margin: 16px;">
+        <input type="text" name="Confrerpassword" placeholder="Confrerpassword" style="width: 100%; border: 1px solid #eaeaea;
+border-radius: 5px; padding: 12px 14px; margin: 16px;">
+        <button
+                type="button"
+                style="
+    width: 300px;
+    height: 45px;
+    padding: 12px 14px;margin: 16px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  "
+                onclick="alert('Кнопка нажата')"
+        >
+            Register
+        </button>
+    </form>
 
-         <div>
-             <input style="text-align: center" ;type="email"  placeholder="email" id="email">
-         </div>
 
-         <div>
-             <input style="text-align: center" ;type="password"  placeholder="password" id="password">
-         </div>
 
-         <div>
-             <input style="text-align: center" ;type="password" placeholder="Confirm password" id="Confirm password">
-         </div>
 
-         <a href="https://www.meme-arsenal.com/create/meme/3610060">
-             <button>Register</button>
-         </a>
-         <div>
-             <label>
-                 <p style="text-align: center;">Or register with</p>
-             </label>
-         </div>
-         <div>
-             <label>
-                 <a href="https://www.google.com/"><button>Google</button></a>
-             </label>
-         </div>
+        <a href="#" style=" width: 100%; display: flex; justify-content: center; align-items: center; gap: 9px; border: 1px solid #eaeaea;
+border-radius: 5px; font-weight: 500;
+font-size: 13px;
+line-height: 123%;
+text-align: center;
+color: #727272; padding: 10px 0; text-decoration: none;">
+            <img src="images/google.svg" alt="google">
+            Continue with Google
+        </a>
 
-         <div>
-             <label>
-                 <a href="http://facebook.com/"><button>Facebook</button></a>
-             </label>
-         </div>
-
-     </form>
+        <a href="#" style=" width: 100%; display: flex; justify-content: center; align-items: center; gap: 9px; border: 1px solid #eaeaea;
+border-radius: 5px; font-weight: 500;
+font-size: 13px;
+line-height: 123%;
+text-align: center;
+color: #727272; padding: 10px 0; text-decoration: none;">
+            <img src="#" alt="Facebuck">
+            Continue with Facebuck
+        </a>
+    </form>
+</div>
 </body>
 </html>
